@@ -29,7 +29,7 @@
     .Outer{width:100%; height:100%; border-radius:50%; background:conic-gradient(black 0% 90%, transparent 99% 100%);display:flex;}
    
   
-    .inner{height:85%;width:85%; border-radius:50%;background-color: #d8d8d8;top:50%;left:50%; align-items:center;position:absolute; justify-content:center;display:flex;transform:translate(-50%, -50%)}
+    .inner{height:90%;width:90%; border-radius:50%;background-color: #d8d8d8;top:50%;left:50%; align-items:center;position:absolute; justify-content:center;display:flex;transform:translate(-50%, -50%)}
    
     .percent{ifont-weight:bold;color: #0076a3}
     .loading{display:flex;position:absolute;transform: translate(-50%, -50%);left:50%;top:80%;align-items:center; justify-content:center}
@@ -49,7 +49,7 @@
         @keyframes ppspace{
             0%{word-spacing:normal}
             60%{word-spacing:5px}
-            70%{word-spacing:20px}
+            90%{word-spacing:20px}
             90%{word-spacing:1px}
             100%{word-spacing:normal}
         }
@@ -90,8 +90,10 @@
        
         .rec1a{height:210px;width:200px; background-color:#30b3bf; border-radius:20px;margin-left:5px;position:relative;scroll-snap-align:center;flex-shrink:0; box-shadow:2px 2px 3px rgba(0, 0, 0, 0.6)}
         
-        .rec1b{position:absolute;height:150px;width:100%;background-image:url("https://i.imghippo.com/files/00Pnh1725702184.jpg"); border-radius:20px; background-size:cover}
+        .rec1b{position:absolute;height:150px;width:100%;background-image:url("https://i.imghippo.com/files/DBdIi1726230556.jpg"); border-radius:20px; background-size:cover}
         
+      
+     
         .rec2a{height:210px;width:200px; background-color:#30b3bf; border-radius:20px;position:relative;scroll-snap-align:center;flex-shrink:0;box-shadow:2px 2px 3px rgba(0, 0, 0, 0.6)}
        
        @keyframes mypicmoves {
@@ -102,7 +104,7 @@
         .rec2b{position:absolute;height:150px;width:100%;background-image:url("https://i.imghippo.com/files/SgPgU1725725991.jpg"); border-radius:20px;border-top:3px solid grey; background-size:cover;animation: mypicmoves 4s ease 2s infinite;box-shadow:inset  0px -2px 2px rgba(0, 0, 0, 0.3)}
         
         .rec3a{height:210px;width:200px; background-color:#30b3bf; border-radius:20px;position:relative;scroll-snap-align:center;flex-shrink:0;box-shadow:2px 2px 3px rgba(0, 0, 0, 0.6)}
-        .rec3b{position:absolute;height:150px;width:100%;background-image:url("https://i.imghippo.com/files/svfys1725725737.jpg"); border-radius:20px; background-size:cover}
+        .rec3b{position:absolute;height:150px;width:100%;background-image:url("https://i.imghippo.com/files/00Pnh1725702184.jpg"); border-radius:20px; background-size:cover}
         
         .rec4a{height:210px;width:200px; background-color:#30b3bf; border-radius:20px;position:relative;scroll-snap-align:center;flex-shrink:0;box-shadow:2px 2px 3px rgba(0, 0, 0, 0.6)}
        
@@ -111,7 +113,14 @@
         .rec4b{position:absolute;height:150px;width:100%;background-image:url("https://i.imghippo.com/files/GAZL91725654765.jpg"); background-size:cover; background-position:bottom;border-radius:20px;}
         
         .rec5a{height:210px;width:200px; background-color:#30b3bf; border-radius:20px;position:relative;scroll-snap-align:center;flex-shrink:0; margin-right:15px;box-shadow:2px 2px 3px rgba(0, 0, 0, 0.6)}
-        .rec5b{position:absolute;height:150px;width:100%;background-color:white; border-radius:20px}
+        .rec5b{position:absolute;height:150px;width:100%;background-image:url("https://i.imghippo.com/files/8VkLU1726231928.jpg"); border-radius:20px; background-size:cover}
+        
+        .progress2 span{animation:progspanmove 2s ease infinite;height:7px;width:70%;background:linear-gradient(to right, transparent, #5c4ad3, transparent);display:flex}
+         
+        
+         
+       .item{color:#f5a623; text-shadow :1px 1px 1px black;position:absolute;bottom:25px;left:10px; font-weight:bold}
+        .item5{color:#f5a623; text-shadow :1px 1px 1px black;position:absolute;bottom:25px;left:10px; font-weight:bold}
         
        .p1{text-align:justify; color:black;font-weight:500px}
        .topp{border-radius:10px;background-color:#f5a623;padding:10px}
@@ -120,20 +129,38 @@
        
         .course{position:absolute;display:flex;bottom:8px;left:10px;width:90%; align-items :center;justify-content: space-between;}
         .progress{display:flex; border-radius:5px;height:7px;width:70%; background-color: #d8d8d8;overflow:hidden;}
-        .progress span{height:7px;width:70%;background-color: #5c4ad3;display:block}
+        .progress span{height:7px;width:90%;background-color: #5c4ad3;display:block}
        
         .course2{position:absolute;display:flex;bottom:8px;left:10px;width:90%; align-items :center;justify-content: space-between;}
          .progress2{display:flex; border-radius:5px;height:7px;width:70%; background-color: #d8d8d8;overflow:hidden;}
          
          @keyframes progspanmove{
-             0%{width:0%}
+            90 0%{width:0%}
              100%{width:100%}
          }
         
        .progress2 span{animation:progspanmove 2s ease infinite;height:7px;width:70%;background:linear-gradient(to right, transparent, #5c4ad3, transparent);display:flex}
          
-        
+        .course2{position:absolute;display:flex;bottom:8px;left:10px;width:90%; align-items :center;justify-content: space-between;}
+         .progress2{display:flex; border-radius:5px;height:7px;width:70%; background-color: #d8d8d8;overflow:hidden;}
          
+         @keyframes progspanmove{
+            90 0%{width:0%}
+             100%{width:100%}
+         }
+        
+       .progress4 span{animation:progspanmove 2s ease infinite;height:7px;width:70%;background:linear-gradient(to right, transparent, #5c4ad3, transparent);display:flex}
+         
+        .course5{position:absolute;display:flex;bottom:8px;left:10px;width:90%; align-items :center;justify-content: space-between;}
+         .progress5{display:flex; border-radius:5px;height:7px;width:70%; background-color: #d8d8d8;overflow:hidden;}
+         
+         @keyframes progspanmove{
+            90 0%{width:0%}
+             100%{width:100%}
+         }
+        
+       .progress5 span{animation:progspanmove 2s ease infinite;height:7px;width:70%;background:linear-gradient(to right, transparent, #5c4ad3, transparent);display:flex}
+          
        .item{color:#f5a623; text-shadow :1px 1px 1px black;position:absolute;bottom:25px;left:10px; font-weight:bold}
          .item2{color:#f5a623; text-shadow :1px 1px 1px black;position:absolute;bottom:25px;left:10px; font-weight:bold}
       
@@ -222,6 +249,7 @@ a{text-decoration:none;color:white}
  .showhere{font-size:20px;align-items:center; justify-content:center; text-align:center;height:100px;width:300px; display:flex;position:fixed;transform:translate(-50%, -50%);top:100px;left:50%;border: 1px solid #ef5350; border-radius:10px; background-color:#84de02;opacity:0;z-index:120; visibility:hidden;transition: opacity 1s ease}
  .show{visibility:visible; opacity:1}
 
+
     </style>
 </head>
 
@@ -277,11 +305,13 @@ We offer services to empower both current generation and posterity to come - to 
                 
                     <div class ="progress">
                         <span></span>
-                        </div><div class ="percent">70%</div>
+                        </div><div class ="percent">95%</div>
                     
                </div>
             
     </div>
+    
+    <div class="perspective">
     
     <div class ="rec2a"><div class="rec2b">
        
@@ -295,12 +325,43 @@ We offer services to empower both current generation and posterity to come - to 
                     
                </div></div>
     
-    <div class ="rec3a"><div class="rec3b"></div></div>
-    
-    <div class ="rec4a"><div class="rec4b"></div></div>
-    
-    <div class="rec5a"><div class ="rec5b"></div></div>
     </div>
+    
+    
+    
+    <div class ="rec3a"><div class="rec3b"></div><div class ="item">Python</div>
+    
+                <div class ="course">
+                
+                    <div class ="progress">
+                        <span></span>
+                        </div><div class ="percent">90%</div>
+                    
+               </div></div>
+    
+    <div class ="rec4a"><div class="rec4b"></div><div class ="item">HTML</div>
+    
+                <div class ="course">
+                
+                    <div class ="progress">
+                        <span></span>
+                        </div><div class ="percent">90%</div>
+                    
+               </div></div>
+    
+    <div class="rec5a"><div class ="rec5b">
+   
+                    
+               </div> <div class ="item5">HTML</div>
+    
+                <div class ="course5">
+                
+                    <div class ="progress5">
+                        <span></span>
+                        </div><div class ="percent">99%</div></div></div>
+    
+    </div>
+    
    
     <br><br>
     <div class="middle"><p class="connect" >Get connected to us via the following socials</p>
@@ -459,4 +520,4 @@ Bytance Tech © 2024. Developed Mark E.
       
     }
 </script>
-        </html>
+    </html>
