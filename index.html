@@ -22,11 +22,10 @@
         }
         .tech{color:#ef5350}
        .boxmove{height:60px}
-        .pp{z-index:51;opacity:1;filter:none;font-size:1px; text-shadow :0.3px 0px 1px black;color:white;font-family:lato, sans-serif;font-weight:bold;position:fixed;top:-35px;
-        animation: ppspace 1.2s ease 10s;
-        transition:transform 3s ease 3s, top 2s ease 1s,left 2s ease  1s}
+        .pp{z-index:51;opacity:1;filter:none;font-size:35px; text-shadow :0.3px 0px 1px black;color:white;font-family:lato, sans-serif;font-weight:bold;position:fixed;top:-25px;left:20%;white-space:nowrap;
+        animation: ppspace 1.2s ease 5s;
+        }
         
-       .panimate{transform:scale(4);top:25px;left:150px}
        
        
        
@@ -38,7 +37,7 @@
         img{ max-width: 97%; height: auto; border-radius:20px;}
         
       
-        nav{position:relative;z-index:5; justify-content: center;word-spacing:10px; text-align: center;font-family:lato, sans-serif;text-decoration:none; transition:transform 3s ease 10s;transform:scale(0.001)}
+        nav{position:relative;z-index:5; justify-content: center;word-spacing:10px; text-align: center;font-family:lato, sans-serif;text-decoration:none; transition:transform 3s ease 3s;transform:scale(0.001)}
         
         .navzoom{transform:scale(1)}
      
@@ -218,7 +217,7 @@
     window.onload = function() { 
   document.querySelector('.box').classList.add('boxmove');
     document.querySelector('.form').classList.add('formbcolor');
-    document.querySelector('.pp').classList.add('panimate');
+    
     document.querySelector('.Register').classList.add('start-transition');
     document.querySelector('.nav').classList.add('navzoom');
 };
@@ -269,3 +268,4 @@ function validate(){
 
 </script>
 
+    
